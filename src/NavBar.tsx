@@ -3,12 +3,12 @@ const NavBar = () => (
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
         <img
-          src="https://flowbite.com/docs/images/logo.svg"
+          src="https://github.com/adrian20191176/orient/blob/main/images/dummy.png?raw=true"
           className="h-8"
-          alt="Flowbite Logo"
+          alt="Orient Logo"
         />
         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-          Flowbite
+          Orient Lanka Enterprises
         </span>
       </a>
       <button
@@ -46,13 +46,13 @@ const NavBar = () => (
               Home
             </a>
           </li>
-          <li>
+          <li className="group">
             <button
               id="dropdownNavbarLink"
               data-dropdown-toggle="dropdownNavbar"
               className="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
             >
-              Dropdown{" "}
+              Products{" "}
               <svg
                 className="w-2.5 h-2.5 ms-2.5"
                 aria-hidden="true"
@@ -71,7 +71,7 @@ const NavBar = () => (
             </button>
             <div
               id="dropdownNavbar"
-              className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+              className="z-10 group-hover:block hidden absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
             >
               <ul
                 className="py-2 text-sm text-gray-700 dark:text-gray-200"
@@ -177,7 +177,7 @@ const NavBar = () => (
               href="#"
               className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
-              Services
+              Blogs
             </a>
           </li>
           <li>
@@ -185,15 +185,7 @@ const NavBar = () => (
               href="#"
               className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
-              Pricing
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-            >
-              Contact
+              Contact us
             </a>
           </li>
         </ul>

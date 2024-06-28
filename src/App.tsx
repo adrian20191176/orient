@@ -2,12 +2,8 @@ import NavBar from "./NavBar";
 
 function App() {
   return (
-    <div
-      className="h-screen
-    "
-    >
+    <div className="bg-gradient-to-tr from-green-500 via-emerald-500 to-emerald-700 h-screen">
       <NavBar />
-      <img src="https://github.com/adrian20191176/orient/blob/main/images/home.jpg?raw=true"></img>
     </div>
   );
 }
